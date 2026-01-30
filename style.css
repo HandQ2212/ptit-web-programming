@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary-color: #6366f1;
-    --secondary-color: #8b5cf6;
-    --accent-color: #ec4899;
+    --primary-color: #2563eb;
+    --secondary-color: #0ea5e9;
+    --accent-color: #06b6d4;
     --dark-color: #0f172a;
     --light-color: #f8fafc;
     --gray-color: #64748b;
@@ -357,6 +357,19 @@ body {
 
 .image-wrapper {
     position: relative;
+}
+
+.profile-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
 }
 
 .image-placeholder {

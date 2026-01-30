@@ -15,7 +15,7 @@ navLinks.forEach(link => {
 
 // Typing Effect
 const typedTextSpan = document.querySelector('.typed-text');
-const textArray = ['Web Developer', 'Frontend Developer', 'Backend Developer', 'UI/UX Designer'];
+const textArray = ['Mobile Developer', 'Android Developer', 'Jetpack Compose Enthusiast'];
 const typingDelay = 100;
 const erasingDelay = 50;
 const newTextDelay = 2000;
